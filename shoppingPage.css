@@ -1,0 +1,32 @@
+body {
+    background-color: deeppink;
+    padding: 20px; /* adds space between side of browser and content */
+    justify-content: center;
+    display: block; /* so nothing is displayed on left/right side */
+  }
+  h1 {
+    text-align: center;
+    font-style: italic;
+    color: chartreuse;
+  }
+  h6 {
+    text-align: center;
+    font-style: italic;
+    color: rgb(79, 5, 148);
+  }
+  h3, h5,
+  p, label {
+    color: chartreuse;
+  }
+  .img {
+    width: 150px;
+    height: 150px;
+  }
+  .img:hover {
+    transform: scale(1.75); /* makes images responsive - magnifies img */
+  }
+  .logo{
+    width: 80px;
+    height: 100px;
+    border-radius: 50px; /* makes oval shape by rounding corners */
+  }
